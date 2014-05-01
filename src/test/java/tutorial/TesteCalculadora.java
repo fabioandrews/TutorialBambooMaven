@@ -23,4 +23,9 @@ public class TesteCalculadora {
 		assertEquals(calc.dividir(2, 2), 1);
 	}
 
+	@Test
+	public void testDividir2() {
+		assertEquals(calc.(6, 3), 3);
+	}
+
 }
