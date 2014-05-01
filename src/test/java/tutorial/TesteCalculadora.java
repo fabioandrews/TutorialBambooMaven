@@ -18,4 +18,9 @@ public class TesteCalculadora {
 		assertEquals(calc.somar(2, 2), 4);
 	}
 
+	@Test
+	public void testDividir() {
+		assertEquals(calc.dividir(2, 2), 1);
+	}
+
 }
